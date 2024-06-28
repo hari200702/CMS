@@ -1,0 +1,24 @@
+.dashboard{
+    display: flex;
+    height: 90vh;
+}
+
+.dashboard .sidebar-container {
+    width: 20%;
+    border-right: 2px solid grey;
+}
+
+.dashboard .contact-container {
+    width: 80%;
+}
+
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
